@@ -25,8 +25,8 @@ namespace SMTP_Email_OTP_Registration
     {
         public int? OTP = 0;
         public int Attempts = 0;
-        private string SenderEmail = "kurtfrancisgame5@gmail.com";
-        private string Password = "rzfy bcxx ambg bqbe";
+        private string SenderEmail = "ADD YOUR OWN";
+        private string Password = "SOME RANDOM TEXT";
         public string UserName = string.Empty;
         public string ReceiverEmail = string.Empty;
         private string UserPassword = string.Empty;
