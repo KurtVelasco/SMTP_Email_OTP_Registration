@@ -89,7 +89,7 @@ namespace SMTP_Email_OTP_Registration
             };
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("kurtfrancisgame5@gmail.com"),
+                From = new MailAddress("YOUR EMAIL"),
                 Subject = "Email Verification",
                 Body = "Here is your OTP:" + OTP,
                 IsBodyHtml = true,
